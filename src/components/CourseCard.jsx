@@ -11,6 +11,7 @@ export default function CourseCard({ course }) {
       <h2>{course.title}</h2>
       <p>{course.shortDescription}</p>
       <p>{course.price}$</p>
+       
 
       <div className="flex space-x-4 mt-2">
   <Link

@@ -17,6 +17,14 @@ export default function CourseDetails() {
   <p className="font-semibold">Lessons: {course.lessonsCount}</p>
   <p className="font-semibold">Level: {course.level}</p>
   <p className="font-bold text-lg">Price: ${course.price}</p>
+    <p className="font-bold text-lg">language: {course.language}</p>
+    <p className="font-bold text-lg">instructor: {course.instructor}</p> 
+   <p className="font-bold text-lg">time: {course.time}</p>   
+    <p className="font-bold text-lg">category: {course.category}</p> 
+     <p className="font-bold text-lg"> duration: {course. duration}</p> 
+         <p className="font-bold text-lg"> days: {course. days}</p>       
+            
+                 <p></p>
   <button className="bg-white text-blue-500 font-semibold px-6 py-2 rounded-full hover:bg-gray-100 transition">
     Enroll Now
   </button>
